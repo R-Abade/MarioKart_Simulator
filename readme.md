@@ -1,94 +1,96 @@
 <h1>Desafio de projeto do Felipão: Mario Kart.JS</h1>
 
-  <table>
-        <tr>
-            <td>
-                <img src="./docs/header.gif" alt="Mario Kart" width="200">
-            </td>
-            <td>
-                <b>Objetivo:</b>
-                <p>Mario Kart é uma série de jogos de corrida desenvolvida e publicada pela Nintendo. Nosso desafio será criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas abaixo.</p>
-            </td>
-        </tr>
-    </table>
+<table>
+  <tr>
+    <td>
+      <img src="./docs/header.gif" alt="Mario Kart" width="200">
+    </td>
+    <td>
+      <b>Objetivo:</b>
+      <p>Mario Kart é uma série de jogos de corrida desenvolvida e publicada pela Nintendo. Nosso desafio será criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas abaixo.</p>
+    </td>
+  </tr>
+</table>
 
 <h2>Players</h2>
-      <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
-        <tr>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Mario</p>
-                <img src="./docs/mario.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 4</p>
-                <p>Aceleração: 3</p>
-                <p>Manobrabilidade: 3</p>
-                <p>Poder: 2</p>
-            </td>
-             <td style="border: 1px solid black; text-align: center;">
-                <p>Peach</p>
-                <img src="./docs/peach.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 2</p>
-                <p>Aceleração: 4</p>
-                <p>Manobrabilidade: 3</p>
-                <p>Poder: 3</p>
-            </td>
-              <td style="border: 1px solid black; text-align: center;">
-                <p>Yoshi</p>
-                <img src="./docs/yoshi.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 3</p>
-                <p>Aceleração: 3</p>
-                <p>Manobrabilidade: 2</p>
-                <p>Poder: 4</p>
-            </td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Bowser</p>
-                <img src="./docs/bowser.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 5</p>
-                <p>Aceleração: 1</p>
-                <p>Manobrabilidade: 4</p>
-                <p>Poder: 2</p>
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Luigi</p>
-                <img src="./docs/luigi.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 4</p>
-                <p>Aceleração: 2</p>
-                <p>Manobrabilidade: 3</p>
-                <p>Poder: 3</p>
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Donkey Kong</p>
-                <img src="./docs/dk.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 4</p>
-                <p>Aceleração: 2</p>
-                <p>Manobrabilidade: 4</p>
-                <p>Poder: 2</p>
-            </td>
-        </tr>
-        <td style="border: 1px solid black; text-align: center;">
-            <p>Toad</p>
-            <img src="./docs/toad.gif" alt="Mario Kart" width="60" height="60">
-        </td>
-        <td style="border: 1px solid black; text-align: center;">
-            <p>Velocidade: 1</p>
-            <p>Aceleração: 5</p>
-            <p>Manobrabilidade: 2</p>
-            <p>Poder: 4</p>
-        </td>
-    </table>
+<table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
+  <tr>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Mario</p>
+      <img src="./docs/mario.gif" alt="Mario Kart" width="60" height="60">
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Velocidade: 4</p>
+      <p>Aceleração: 3</p>
+      <p>Manobrabilidade: 3</p>
+      <p>Poder: 2</p>
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Peach</p>
+      <img src="./docs/peach.gif" alt="Mario Kart" width="60" height="60">
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Velocidade: 2</p>
+      <p>Aceleração: 4</p>
+      <p>Manobrabilidade: 3</p>
+      <p>Poder: 3</p>
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Yoshi</p>
+      <img src="./docs/yoshi.gif" alt="Mario Kart" width="60" height="60">
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Velocidade: 3</p>
+      <p>Aceleração: 3</p>
+      <p>Manobrabilidade: 2</p>
+      <p>Poder: 4</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Bowser</p>
+      <img src="./docs/bowser.gif" alt="Mario Kart" width="60" height="60">
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Velocidade: 5</p>
+      <p>Aceleração: 1</p>
+      <p>Manobrabilidade: 4</p>
+      <p>Poder: 2</p>
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Luigi</p>
+      <img src="./docs/luigi.gif" alt="Mario Kart" width="60" height="60">
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Velocidade: 4</p>
+      <p>Aceleração: 2</p>
+      <p>Manobrabilidade: 3</p>
+      <p>Poder: 3</p>
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Donkey Kong</p>
+      <img src="./docs/dk.gif" alt="Mario Kart" width="60" height="60">
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Velocidade: 4</p>
+      <p>Aceleração: 2</p>
+      <p>Manobrabilidade: 4</p>
+      <p>Poder: 2</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Toad</p>
+      <img src="./docs/toad.gif" alt="Mario Kart" width="60" height="60">
+    </td>
+    <td style="border: 1px solid black; text-align: center;">
+      <p>Velocidade: 1</p>
+      <p>Aceleração: 5</p>
+      <p>Manobrabilidade: 2</p>
+      <p>Poder: 4</p>
+    </td>
+  </tr>
+</table>
 
 <p></p>
 
@@ -117,3 +119,45 @@
 
 <input type="checkbox" id="vitoria-item" />
 <label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
+
+<h2>🔧 Implementação Java com Design Patterns</h2>
+
+<h3>🎮 Estrutura do Projeto</h3>
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr style="background-color: #f2f2f2;">
+    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Classe</th>
+    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Função</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;"><code>Characters.java</code></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Modela os personagens com seus atributos e pontos</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;"><code>CharacterFactory.java</code></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Cria instâncias de personagens pré-configuradas</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;"><code>CharacterSingleton.java</code></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Gerencia o acesso global aos personagens</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;"><code>MarioKart.java</code></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Contém a lógica principal do jogo</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;"><code>Main.java</code></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Ponto de entrada do programa</td>
+  </tr>
+</table>
+
+<h3>🛠️ Design Patterns Implementados</h3>
+
+<ul>
+  <li><b>Singleton:</b> Garante uma única instância do repositório de personagens</li>
+  <li><b>Factory Method:</b> Centraliza a criação de objetos Characters</li>
+</ul>
+
+<h3>⚙️ Como Executar</h3>
+<pre><code>javac Main.java
+java Main</code></pre>
